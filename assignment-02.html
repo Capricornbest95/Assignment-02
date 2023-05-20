@@ -1,0 +1,202 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Assignment 02</title>
+</head>
+
+<body>
+
+	
+<script>
+
+// var pope = prompt("Where does pope live?").toLowerCase();
+// if (pope === "pakistan") {
+//     alert("Great, your are right");
+// } else {
+//     alert("Wrong answer");
+// };
+
+// var students = prompt("how many students are there in your class?").toLowerCase();
+// if (students === "ten") {
+//     alert("Great, Right answer");
+// } else if (students !== "ten") {
+//     alert("try again");
+// } else {
+//     alert("you are done here");
+// };
+
+// var studentName = prompt("Enter Student Name?").toLowerCase();
+// if(studentName === "asad") {
+//     alert("Great you are right");
+// } else if(studentName === "waleed") {
+//     alert("Great you are right");
+// } else if (studentName === "ahmed") {
+//     alert("wow Grape");
+// } else {
+//     alert("Ops you are wrong");
+// };
+
+// var myClass = prompt("Who is with you in Class?").toLowerCase();
+// if (myClass === "waleed" || myClass === "ahmed" || myClass === "asad") {
+//     alert("Great you are right");
+// } else {
+//     alert("Yakhi again you are wrong.")
+// };
+
+// var myFriends = prompt("Mention your friends names");
+// if (myFriends === "asad" || myFriends === "waleed" || myFriends === "ahmed") {
+//     alert("Wow you have many friends");
+// } else {
+//     alert("no one likes you!")
+// };
+
+// var myFriends = prompt("mention your friends names").toLowerCase();
+// var myFriends2 = prompt("Mention your 2nd friend").toLowerCase();
+
+// if (myFriends === "asad" && myFriends2 === "ahmed") {
+//     alert("you are right");
+// } else {
+//     alert("no you are");
+// }
+
+// console.log (myFriends + myFriends2);
+
+// let quest1 = "Ahmer";
+
+// let quest1 = prompt("Enter first name !").toLowerCase();
+// let quest2 = prompt("Enter second name !").toLowerCase();
+// // let quest3 = "butt";
+// let fname;
+// let sname;
+
+// if (quest1 === "asad") {
+//     if(quest2 === "ahmed") {
+//         fname = quest1;
+//     } else if (quest2 === "butt") {
+//         sname = quest2;
+//     }
+//     else {
+//         sname = "Kashmiri"
+//     }
+// } else {
+//     sname = "Kashmiri"
+// }
+
+// console.log(fName);
+// console.log(sName);
+// console.log(sName);
+
+
+// if (quest1 === "asad" && (quest2 === "ahmed" || quest2 === "butt")) {
+//     // fName = quest1;
+//     alert("inside data is right");
+// } else {  
+//     alert("inside data is wrong");
+// }
+
+
+// var city0 = "Atlanta";
+// var city1 = "Baltimore";
+// var city2 = "Chicago";
+// var city3 = "Denver";
+// var city4 = "Los Angeles";
+// var city5 = "Seattle";
+
+// alert(city4 + city2);
+
+// var cities = ["Atlanta", "Baltimore", "Chicago", "Denver", "Los Angeles", "Seattle"];
+
+// alert("Welcome to" + cities);
+
+// var mixedArray = [1, "Bob", "Now is", true];
+
+// alert(mixedArray[1]);
+
+
+// // TASK 01
+let fNumber =+ prompt("This is First Number to check the bigger number.");
+let sNumber =+ prompt("This is Second Number to check the bigger number.");
+
+if (fNumber > sNumber) {
+    console.log ("The First number is bigger: " + fNumber);
+} else if (sNumber > fNumber) {
+    console.log ("The Second number is bigger: " + sNumber);
+} else {
+    console.log ("Both numbers are equal: " + fNumber + sNumber);
+}
+
+// // TASK 02
+let number1 =+ prompt("Enter the Number to check the sign");
+if (number1 > 0) {
+    alert("The sign is +");
+    console.log("The sign is +");
+} else if (number1 < 0) {
+    alert("The sign is -");
+    console.log("The sign is -");
+}
+
+// TASK 03
+let num1 =+ prompt("Enter the first Number");
+let num2 =+ prompt("Enter the second Number");
+let num3 =+ prompt("Enter the third Number");
+let num4 =+ prompt("Enter the fourth Number");
+let num5 =+ prompt("Enter the Fifth Number");
+let largestNumber;
+
+if (num1 > num2 && num1 > num3 && num1 > num4 && num1 > num5) {
+    largestNumber = num1;
+} else if (num2 > num1 && num2 > num3 && num2 > num4 && num2 > num5) {
+    largestNumber = num2;
+} else if (num3 > num1 && num3 > num2 && num3 > num4 && num3 > num5) {
+    largestNumber = num3;
+} else if (num4 > num1 && num4 > num2 && num4 > num3 && num4 > num5) {
+    largestNumber = num4;
+} else if (num5 > num1 && num5 > num2 && num5 > num3 && num5 > num4) {
+    largestNumber = num5;
+}
+
+console.log("First number is " + num1);
+console.log("Second number is " + num2);
+console.log("Third number is " + num3);
+console.log("Fourth number is " + num4);
+console.log("Fifth number is " + num5);
+console.log("The largest number is " + largestNumber);
+
+// // let largestNumber = Math.max(num1, num2, num3, num4, num5);
+// // alert("The biggest number is " + largestNumber);
+
+
+// // TASK 04
+let studentMark =+ prompt("Enter the Student Marks to get the Grade");
+if (studentMark < 60) {
+    console.log ("Student Percentage is " + studentMark);
+    console.log ("Student Grade is F");
+} else if (studentMark < 70) {
+    console.log ("Student Percentage is " + studentMark);
+    console.log ("Student Grade is D");
+}  else if (studentMark < 80) {
+    console.log ("Student Percentage is " + studentMark);
+    console.log ("Student Grade is C");
+}  else if (studentMark < 90) {
+    console.log ("Student Percentage is " + studentMark);
+    console.log ("Student Grade is B");
+}  else if (studentMark < 100) {
+    console.log ("Student Percentage is " + studentMark);
+    console.log ("Student Grade is A");
+}  
+
+
+// var number = prompt("Enter the number to check even");
+// if (number % 2 === 0 ) {
+//     console.log(
+//         "this is even number"
+//     );
+// } else {
+//     console.log("this is not even number");
+// };
+
+</script>
+
+</body>
+</html>
